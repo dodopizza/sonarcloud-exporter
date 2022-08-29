@@ -10,9 +10,9 @@ import (
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/whyeasy/sonarcloud-exporter/internal"
-	"github.com/whyeasy/sonarcloud-exporter/lib/client"
-	"github.com/whyeasy/sonarcloud-exporter/lib/collector"
+	"github.com/dodopizza/sonarcloud-exporter/internal"
+	"github.com/dodopizza/sonarcloud-exporter/lib/client"
+	"github.com/dodopizza/sonarcloud-exporter/lib/collector"
 )
 
 var config internal.Config

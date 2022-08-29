@@ -6,8 +6,8 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/whyeasy/sonarcloud-exporter/internal"
-	sonar "github.com/whyeasy/sonarcloud-exporter/lib/sonar"
+	"github.com/dodopizza/sonarcloud-exporter/internal"
+	sonar "github.com/dodopizza/sonarcloud-exporter/lib/sonar"
 )
 
 //Stats struct is the list of expected to results to export.

@@ -1,4 +1,4 @@
-module github.com/whyeasy/sonarcloud-exporter
+module github.com/dodopizza/sonarcloud-exporter
 
 go 1.15
 
