@@ -1,6 +1,6 @@
-![build](https://github.com/Whyeasy/sonarcloud-exporter/workflows/build/badge.svg)
-![status-badge](https://goreportcard.com/badge/github.com/Whyeasy/sonarcloud-exporter)
-![Github go.mod Go version](https://img.shields.io/github/go-mod/go-version/Whyeasy/sonarcloud-exporter)
+![build](https://github.com/dodopizza/sonarcloud-exporter/workflows/build/badge.svg)
+![status-badge](https://goreportcard.com/badge/github.com/dodopizza/sonarcloud-exporter)
+![Github go.mod Go version](https://img.shields.io/github/go-mod/go-version/dodopizza/sonarcloud-exporter)
 
 # sonarcloud-exporter
 

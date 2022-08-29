@@ -6,7 +6,7 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/whyeasy/sonarcloud-exporter/lib/client"
+	"github.com/dodopizza/sonarcloud-exporter/lib/client"
 )
 
 //Collector struct for holding Prometheus Desc and Exporter Client

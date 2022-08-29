@@ -14,7 +14,7 @@ untag:
 	git fetch --tags
 	git tag -d $(TAG)
 	git push origin :refs/tags/$(TAG)
-	curl --request DELETE --header "Authorization: token ${GITHUB_TOKEN}" "https://api.github.com/repos/whyeasy/sonarcloud-exporter/releases/:release_id/$(TAG)"
+	curl --request DELETE --header "Authorization: token ${GITHUB_TOKEN}" "https://api.github.com/repos/dodopizza/sonarcloud-exporter/releases/:release_id/$(TAG)"
 
 verify-goreleaser:
 ifeq (, $(shell which goreleaser))

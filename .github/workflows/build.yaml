@@ -9,19 +9,9 @@ on:
     branches:
       - "*"
 jobs:
-  linting:
-    name: Linting
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@master
-      - name: Lint
-        uses: actions-contrib/golangci-lint@v1
-        with:
-          args: run -E golint -E bodyclose
   build:
     runs-on: ubuntu-latest
     name: build
-    needs: linting
     steps:
       - name: Set up Go 1.15
         uses: actions/setup-go@v1
@@ -40,7 +30,7 @@ jobs:
       - name: Run Trivy vulnerability scanner
         uses: aquasecurity/trivy-action@master
         with:
-          image-ref: "whyeasy/sonarcloud-exporter:${{ github.sha }}"
+          image-ref: "dodopizza/sonarcloud-exporter:${{ github.sha }}"
           format: "table"
           exit-code: "1"
           ignore-unfixed: true
